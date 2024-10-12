@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenmind || Login page</title>
+
+    <!-- css file linked  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- user information start  -->
+    <div class="user_information_container">
+        <div class="user_information">
+            <p>User Name: greenmind</p>
+            <p>User Email: greenmind@gmail.com</p>
+        </div>
+        <div class="user_authen">
+            <a href="login.html">login</a>
+            <a href="signup.html">signup</a>
+        </div>
+    </div>
+    <!-- user information end  -->
+
+
+    <!-- mobile menu start  -->
+    <div class="mobile_menu_container">
+        <div class="mobile_menu_wrapper">
+            <!-- navigation bar  -->
+            <nav class="navigation_bar">
+                <menu class="menu_bar mobile_menu_bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li class="active"><a href="contact.html">Contacts</a></li>
+                </menu>
+            </nav>
+        </div>
+    </div>
+    <!-- mobile menu end -->
+
+
+    <!-- header section start  -->
+    <header class="header_section">
+        <div class="container">
+            <div class="header_container">
+                <!-- header left side  -->
+                <div class="header_left_side">
+                    <!-- logo wrapper -->
+                    <div class="logo_wrapper">
+                        <a href="index.html">GREENMIND</a>
+                    </div>
+
+                    <!-- navigation bar  -->
+                    <nav class="navigation_bar">
+                        <menu class="menu_bar">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
+                        </menu>
+                    </nav>
+                </div>
+                <!-- header right side  -->
+                <div class="header_right_side">
+                    
+                    <button><img src="assets/images/icons/cart_icon.png" alt="cart">
+                        <!-- cart count  -->
+                        <span>1</span>
+                    </button>
+                    <button id="user_info"><img src="assets/images/icons/person_icon.png" alt="user"></button>
+
+                    <!-- menu bar icon   -->
+                    <div class="menu_bar_icon">
+                        <div id="pencet">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end  -->
+
+
+
+    <!-- login start  -->
+    <div class="login_section">
+        <div class="login_container">
+            <div class="login_header_wrapper">
+                <h4><img src="assets/images/icons/login_icon.png" alt="login"> login here</h4>
+                <p>Don’t have an account? <a href="signup.html">sign up!</a></p>
+            </div>
+
+            <div class="login_form_container">
+                <div class="login_form_header">
+                    <h3>Welcome Back</h3>
+                    <p>Login into your account</p>
+                </div>
+                <form>
+                    <div class="login_input_controller">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="login_input_controller">
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="login_remmber_box">
+                        <div>
+                            <input type="checkbox" name="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </div>
+                        <button>forget password</button>
+                    </div>
+
+                    <div class="login_button_controller">
+                        <button>login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- login end  -->
+    
+</body>
+
+<!-- js file linked  -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/main.js"></script>
+</html>
